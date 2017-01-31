@@ -1,0 +1,56 @@
+.app-container {
+  background-color: rgb(102, 200, 201);
+  display: flex;
+  height: 680px;
+  min-width: 400px;
+  flex-direction: column;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 10%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 2px 2px 200px 6px rgba(0, 0, 0, 0.3);
+}
+
+.user-info-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.user-info-form > input {
+  padding: 12px;
+  border-radius: 8px;
+  margin: 4px;
+}
+
+.plan-select {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+select {
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  margin: 4px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.condition-checkboxes {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0 0 22px;
+}
+
+.condition-checkboxes input {
+
+}
