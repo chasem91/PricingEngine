@@ -1,0 +1,21 @@
+
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  # username: "username"
+  # password: "password"
+
+development:
+  <<: *default
+  database: PricingEngine_development
+
+test:
+  <<: *default
+  database: PricingEngine_test
+
+production:
+  <<: *default
+  database: PricingEngine_production
+  username: PricingEngine
+  password: <%= ENV['PRICINGENGINE_DATABASE_PASSWORD'] %>

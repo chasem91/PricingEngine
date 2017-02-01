@@ -124,10 +124,6 @@ Testing:
   4) setup database:
   >\> bundle exec rake db:setup
 
-  >\> bundle exec rake db:seed
-
-
-
 #### Run application:
   >\> npm run webpack
 
